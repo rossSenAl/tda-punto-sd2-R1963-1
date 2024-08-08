@@ -95,6 +95,12 @@ public class Punto implements IPunto {
         this.etiqueta = etiqueta;
     }
 
+
+    // implementar los metodos abstractos que permitan obtener la
+    // 1. la distancia entre dos puntos
+    // 2. el punto medio entre dos puntos
+    // para presentar mediante git la proxima clase 12/08/2024
+
     @Override
     public double dameDistanciaEntreOtroPunto(Punto OtroOPunto) {
 
