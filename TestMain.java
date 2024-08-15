@@ -12,12 +12,17 @@ public class TestMain {
         puntoVerde.setX(6);
         puntoVerde.setY(2.7);
 
+        
+
+        
+        
+
         // codigo que debe de utilizar para probar la implementacion de sus metodos
         double distanciaEntrePuntoVerde = puntoRojo.dameDistanciaEntreOtroPunto(puntoVerde);
         System.out.println(distanciaEntrePuntoVerde);
 
         Punto puntoMedioEntrePuntoVerde = puntoRojo.damePuntoMedioEntreOtroPunto(puntoVerde);
-        System.out.println(puntoMedioEntrePuntoVerde.toString());
+        System.out.println("Punto Medio" + puntoMedioEntrePuntoVerde);
 
     }
 }
